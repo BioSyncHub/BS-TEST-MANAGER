@@ -1,0 +1,58 @@
+# .gitignore - Excluir arquivos desnecessários do Git
+
+# Compilação C++
+*.obj
+*.exe
+*.lib
+*.dll
+*.exp
+*.ilk
+*.pdb
+build/
+Debug/
+Release/
+*.sln.DotSettings.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# CMake
+CMakeLists.txt.user
+CMakeUserPresets.json
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Temporários
+*.tmp
+*.temp
+*.log

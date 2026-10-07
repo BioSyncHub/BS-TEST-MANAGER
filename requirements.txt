@@ -1,0 +1,16 @@
+# Requirements.txt - Dependências Python para ferramentas de memória
+
+# Biblioteca principal para manipulação de memória em Python
+pymem==1.14.0
+
+# Utilitários para processamento de dados
+numpy==1.24.3
+
+# Análise de padrões e estatísticas
+scipy==1.11.0
+
+# Logging e monitoramento avançado
+colorama==0.4.6
+
+# Opcional: Ferramentas de debugging
+psutil==5.9.5
